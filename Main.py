@@ -40,8 +40,6 @@ ix = np.clip(ix, 0, image\_size - 1)
 iy = np.clip(iy, 0, image\_size - 1)
 return source\[iy, ix]
 
-# 광도(light curve) 계산
-
 @st.cache
 def compute\_lightcurve(positions):
 brightness = \[]
