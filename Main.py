@@ -5,8 +5,8 @@ from matplotlib.colors import LogNorm
 
 # --- 중력렌즈 파라미터 ---
 
-theta\_E = 1.0  # 아인슈타인 반경
-image\_size = 300  # 출력 이미지 크기
+theta_E = 1.0  # 아인슈타인 반경
+image_size = 300  # 출력 이미지 크기
 
 # 배경천체(별) 밝기 분포 생성
 
